@@ -1,0 +1,273 @@
+{
+  "title": "Gestione eventi e iscrizioni",
+  "description": "Agenda della biblioteca per organizzare eventi culturali, controllare i posti disponibili e gestire le iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo degli eventi in programma e della disponibilità dei posti.",
+      "metrics": [
+        {
+          "label": "Eventi in programma",
+          "value": "8"
+        },
+        {
+          "label": "Iscrizioni confermate",
+          "value": "73"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "47"
+        },
+        {
+          "label": "Eventi al completo",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio Vela",
+          "Laboratorio",
+          "14/06/2026",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Suoni di Nubi",
+          "Concerto",
+          "18/06/2026",
+          "30",
+          "30",
+          "0"
+        ],
+        [
+          "Mappe immaginarie",
+          "Incontro",
+          "20/06/2026",
+          "20",
+          "13",
+          "7"
+        ],
+        [
+          "Storie in cerchio",
+          "Lettura",
+          "23/06/2026",
+          "18",
+          "18",
+          "0"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "eventi",
+      "title": "Eventi",
+      "description": "Consulta e organizza gli appuntamenti culturali; la tabella è filtrabile per categoria e disponibilità.",
+      "metrics": [
+        {
+          "label": "Eventi visibili",
+          "value": "8"
+        },
+        {
+          "label": "Posti totali",
+          "value": "132"
+        },
+        {
+          "label": "Posti rimasti",
+          "value": "47"
+        }
+      ],
+      "columns": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Ora",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ],
+      "rows": [
+        [
+          "Racconti di Lumo",
+          "Lettura",
+          "12/06/2026",
+          "17:00",
+          "24",
+          "19",
+          "5"
+        ],
+        [
+          "Laboratorio Vela",
+          "Laboratorio",
+          "14/06/2026",
+          "10:30",
+          "16",
+          "12",
+          "4"
+        ],
+        [
+          "Suoni di Nubi",
+          "Concerto",
+          "18/06/2026",
+          "18:00",
+          "30",
+          "30",
+          "0"
+        ],
+        [
+          "Mappe immaginarie",
+          "Incontro",
+          "20/06/2026",
+          "16:30",
+          "20",
+          "13",
+          "7"
+        ],
+        [
+          "Storie in cerchio",
+          "Lettura",
+          "23/06/2026",
+          "17:00",
+          "18",
+          "18",
+          "0"
+        ],
+        [
+          "Carta e costellazioni",
+          "Laboratorio",
+          "25/06/2026",
+          "15:00",
+          "12",
+          "7",
+          "5"
+        ],
+        [
+          "Voci del giardino",
+          "Incontro",
+          "27/06/2026",
+          "11:00",
+          "8",
+          "5",
+          "3"
+        ],
+        [
+          "Fiabe a colori",
+          "Lettura",
+          "29/06/2026",
+          "16:00",
+          "4",
+          "1",
+          "3"
+        ]
+      ],
+      "form": [
+        "Evento",
+        "Categoria",
+        "Data",
+        "Ora",
+        "Capienza",
+        "Iscritti",
+        "Posti rimasti"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Registra le adesioni e verifica lo stato delle iscrizioni per ciascun evento. Filtri disponibili per evento e stato.",
+      "metrics": [
+        {
+          "label": "Iscrizioni confermate",
+          "value": "73"
+        },
+        {
+          "label": "In attesa",
+          "value": "4"
+        },
+        {
+          "label": "Posti assegnati",
+          "value": "73"
+        }
+      ],
+      "columns": [
+        "Iscritto",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Ari Lumo",
+          "Racconti di Lumo",
+          "02/06/2026",
+          "Confermata"
+        ],
+        [
+          "Neri Vela",
+          "Racconti di Lumo",
+          "03/06/2026",
+          "Confermata"
+        ],
+        [
+          "Tavi Nubi",
+          "Laboratorio Vela",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Mira Soli",
+          "Suoni di Nubi",
+          "04/06/2026",
+          "Confermata"
+        ],
+        [
+          "Eli Rami",
+          "Mappe immaginarie",
+          "05/06/2026",
+          "In attesa"
+        ],
+        [
+          "Noa Tilo",
+          "Storie in cerchio",
+          "05/06/2026",
+          "Confermata"
+        ],
+        [
+          "Leni Filo",
+          "Carta e costellazioni",
+          "06/06/2026",
+          "Confermata"
+        ],
+        [
+          "Rivo Lari",
+          "Voci del giardino",
+          "06/06/2026",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Iscritto",
+        "Evento",
+        "Data iscrizione",
+        "Stato"
+      ]
+    }
+  ]
+}
